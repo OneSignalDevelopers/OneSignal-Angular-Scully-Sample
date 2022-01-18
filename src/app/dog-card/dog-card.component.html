@@ -1,0 +1,12 @@
+<div class="card" [ngClass]="{'horizontal': type === 'horizontal'}" *ngIf="dog">
+    <div class="card-image">
+        <img [src]="dog.image" />
+        <br/>
+        <span class="card-title" *ngIf="type !== 'horizontal'">{{ dog.name }}</span>
+    </div>
+    <div class="card-action">
+        <a [routerLink]="['/dogs/' + dog.id]">
+            View Dog
+        </a>
+    </div>
+</div>

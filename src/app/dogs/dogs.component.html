@@ -1,0 +1,13 @@
+<p>
+    Adopt dogs, don't buy!
+</p>
+
+<h3>
+    Dogs, puppuis, doggos, etc.
+</h3>
+
+<div class="dogs-list">
+    <div *ngFor="let dog of dogs$ | async" class="dogs-list-item">
+        <app-dog-card  [dog]="dog"></app-dog-card>
+    </div>
+</div>

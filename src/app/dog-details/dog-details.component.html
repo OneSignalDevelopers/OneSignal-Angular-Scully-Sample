@@ -1,0 +1,7 @@
+<div class="actions" *ngIf="dog">
+    <a [routerLink]="['/']" class="actions__link">Dogs</a>
+    <span class="actions__separator">➡</span>
+    <span>{{ dog.name }}</span>
+</div>
+<app-dog-card ype="horizontal" [dog]="dog">
+</app-dog-card>
