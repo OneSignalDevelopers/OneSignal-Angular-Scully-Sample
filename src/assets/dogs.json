@@ -1,24 +1,23 @@
 {
-    "dogs":
-        [{
-            "url": "/assets/dogs.json",
-            "id": "desk",
-            "name": "Doggo 1",
-            "image": "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
-        }, {
-            "url": "/assets/dogs.json",
-            "id": "chair",
-            "name": "Doggo 2",
-            "image": "https://images.unsplash.com/photo-1568572933382-74…lfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
-        }, {
-            "url": "/assets/dogs.json",
-            "id": "light",
-            "name": "Doggo 3",
-            "image": "https://images.unsplash.com/photo-1518378188025-22…lfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-        }, {
-            "url": "/assets/dogs.json",
-            "id": "keyboard",
-            "name": "Doggo 4",
-            "image": "https://images.unsplash.com/photo-1625316708582-7c…lfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-        }]  
+  "dogs" : [ {
+    "id" : "dog1",
+    "image" : "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
+    "name" : "Doggo 1",
+    "url" : "/assets/dogs.json"
+  }, {
+    "id" : "dog2",
+    "image" : "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
+    "name" : "Doggo 2",
+    "url" : "/assets/dogs.json"
+  }, {
+    "id" : "dog3",
+    "image" : "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
+    "name" : "Doggo 3",
+    "url" : "/assets/dogs.json"
+  }, {
+    "id" : "dog4",
+    "image" : "https://images.unsplash.com/photo-1598133894008-61f7fdb8cc3a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
+    "name" : "Doggo 4",
+    "url" : "/assets/dogs.json"
+  } ]
 }

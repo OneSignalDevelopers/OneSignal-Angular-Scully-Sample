@@ -12,7 +12,7 @@ export class DogsService {
   constructor(private http: HttpClient) { }
 
   getDogs():Observable<Dog[] | null> {
-    return this.http.get<Dog[]>('https://scully-snipcart-api.netlify.app/products.json');
+    return this.http.get<Dog[]>('https://angular-no-scully-default-rtdb.firebaseio.com/dogs.json');
   }
 
   getDogsById(id: string): Observable<Dog | null> {

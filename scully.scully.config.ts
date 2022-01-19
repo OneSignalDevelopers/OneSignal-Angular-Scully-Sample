@@ -9,5 +9,12 @@ export const config: ScullyConfig = {
   spsModulePath: 'YOUR OWN MODULE PATH HERE',
   outDir: './dist/static',
   routes: {
+    '/dogs/:dogId': {
+        type: 'json',
+        dogId: {
+            url: 'https://angular-no-scully-default-rtdb.firebaseio.com/dogs.json',
+            property: 'id'
+        }
+    }
   }
 };

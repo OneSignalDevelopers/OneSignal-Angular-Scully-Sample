@@ -1,0 +1,11 @@
+identifier: kcy5k4r1t71al1q1
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: scully
+homeFolder: /Users/patriciovargas/Desktop/scully
+distFolder: dist/scully
+outDir: /Users/patriciovargas/Desktop/scully/dist/static
+handle404: ''
+allowErrorCollect: false
